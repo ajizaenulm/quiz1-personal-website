@@ -93,6 +93,7 @@ quiz1/
 ## URL Structure (Quiz Requirements)
 
 All requirements met:
+
 - Homepage: `/quiz1`
 - Profile: `/quiz1/profile`
 - Hometown: `/quiz1/hometown`
