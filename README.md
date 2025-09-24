@@ -1,7 +1,5 @@
 # Aji Zaenul Musthofa - Personal Website (Quiz 1)
 
-🌟 **Live Website**: [https://ajizaenulm.github.io/quiz1-personal-website/](https://ajizaenulm.github.io/quiz1-personal-website/)
-
 ## About This Project
 
 This is a static personal website created for Quiz 1 of Web Programming course. The website showcases information about Aji Zaenul Musthofa, an Informatics Engineering student from Institut Teknologi Sepuluh Nopember (ITS), originally from Pekalongan, Central Java.
@@ -92,26 +90,14 @@ quiz1/
 └── images/                # Image assets
 ```
 
-## Deployment
-
-This website is deployed on GitHub Pages and accessible at:
-**https://ajizaenulm.github.io/quiz1-personal-website/**
-
-### Alternative Hosting Options
-
-- Netlify: Drag & drop deployment
-- Vercel: Automatic deployment from GitHub
-- Surge.sh: Command line deployment
-
 ## URL Structure (Quiz Requirements)
 
-✅ All requirements met:
-
-- Homepage: `https://ajizaenulm.github.io/quiz1-personal-website/`
-- Profile: `https://ajizaenulm.github.io/quiz1-personal-website/profile/`
-- Hometown: `https://ajizaenulm.github.io/quiz1-personal-website/hometown/`
-- Local Food: `https://ajizaenulm.github.io/quiz1-personal-website/food/`
-- Tourist Places: `https://ajizaenulm.github.io/quiz1-personal-website/tourist/`
+All requirements met:
+- Homepage: `/quiz1`
+- Profile: `/quiz1/profile`
+- Hometown: `/quiz1/hometown`
+- Local Food: `/quiz1/food`
+- Tourist Places: `/quiz1/tourist`
 
 ## Credits
 
