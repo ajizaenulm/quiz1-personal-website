@@ -13,23 +13,27 @@ The website consists of 5 main pages following the required URL structure:
 ### Pages
 
 1. **Homepage** (`index.html`) - `/quiz1`
+
    - Main landing page with introduction and overview
    - Quick navigation to all sections
    - Personal highlights and call-to-action
 
 2. **Profile** (`profile/index.html`) - `/quiz1/profile`
+
    - Detailed personal information
    - Education background (ITS Informatics Engineering)
    - Skills, interests, and future goals
    - Contact information
 
 3. **Hometown** (`hometown/index.html`) - `/quiz1/hometown`
+
    - Complete information about Pekalongan City
    - History, culture, and geography
    - What makes Pekalongan special (Batik heritage)
    - Personal connection to the city
 
 4. **Local Food** (`food/index.html`) - `/quiz1/food`
+
    - Traditional Pekalongan cuisine
    - Signature dishes with detailed descriptions
    - Food culture and cultural influences
@@ -53,6 +57,7 @@ The website consists of 5 main pages following the required URL structure:
 ## Features
 
 ### Design & User Experience
+
 - Fully responsive design (mobile, tablet, desktop)
 - Modern and clean interface with gradient backgrounds
 - Consistent navigation across all pages
@@ -60,6 +65,7 @@ The website consists of 5 main pages following the required URL structure:
 - Interactive hover effects and parallax scrolling
 
 ### Technical Features
+
 - Mobile-first responsive design
 - Cross-browser compatibility
 - Optimized loading with CDN resources
@@ -92,6 +98,7 @@ This website is deployed on GitHub Pages and accessible at:
 **https://ajizaenulm.github.io/quiz1-personal-website/**
 
 ### Alternative Hosting Options
+
 - Netlify: Drag & drop deployment
 - Vercel: Automatic deployment from GitHub
 - Surge.sh: Command line deployment
@@ -99,6 +106,7 @@ This website is deployed on GitHub Pages and accessible at:
 ## URL Structure (Quiz Requirements)
 
 ✅ All requirements met:
+
 - Homepage: `https://ajizaenulm.github.io/quiz1-personal-website/`
 - Profile: `https://ajizaenulm.github.io/quiz1-personal-website/profile/`
 - Hometown: `https://ajizaenulm.github.io/quiz1-personal-website/hometown/`

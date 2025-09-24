@@ -1,14 +1,17 @@
 # Website Deployment Guide
 
 ## Live Website
+
 - **GitHub Pages URL**: https://ajizaenulm.github.io/quiz1-personal-website/
 - **Custom Domain** (if configured): https://your-custom-domain.com
 
 ## Repository Information
+
 - **Repository**: https://github.com/ajizaenulm/quiz1-personal-website
 - **Branch**: main (deployed branch)
 
 ## Deployment Steps Completed
+
 1. ✅ Created Git repository
 2. ✅ Committed all files
 3. ✅ Pushed to GitHub
@@ -16,6 +19,7 @@
 5. ✅ Website is live and accessible
 
 ## Website Structure
+
 ```
 quiz1/
 ├── index.html          # Homepage
@@ -35,6 +39,7 @@ quiz1/
 ```
 
 ## Features
+
 - ✅ Responsive design with Bootstrap
 - ✅ Modern CSS animations and effects
 - ✅ JavaScript interactivity
@@ -43,6 +48,7 @@ quiz1/
 - ✅ Fast loading times
 
 ## Technologies Used
+
 - HTML5
 - CSS3 (Custom + Bootstrap 5.3.0)
 - JavaScript (jQuery 3.6.0)
@@ -50,6 +56,7 @@ quiz1/
 - Google Fonts (Inter)
 
 ## Quiz Requirements Met
+
 ✅ Homepage: /quiz1
 ✅ Profile: /quiz1/profile
 ✅ Hometown: /quiz1/hometown
