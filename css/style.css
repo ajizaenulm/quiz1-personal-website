@@ -1,4 +1,3 @@
-/* Contact Section Styling */
 .contact-card {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border: none;
@@ -165,7 +164,6 @@
     left: 100%;
 }
 
-/* LinkedIn Button - Clean Professional Style */
 .linkedin-btn {
     background: #0A66C2;
     color: #ffffff;
@@ -179,7 +177,6 @@
     border-color: #004182;
 }
 
-/* GitHub Button - Clean Dark Style */
 .github-btn {
     background: #24292e;
     color: #ffffff;
@@ -193,7 +190,6 @@
     border-color: #586069;
 }
 
-/* Instagram Button - Clean Gradient Style */
 .instagram-btn {
     background: linear-gradient(135deg, #E4405F, #C13584);
     color: #ffffff;
@@ -224,7 +220,6 @@
     color: #ffffff !important;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
     .contact-card {
         padding: 1.5rem;
@@ -267,7 +262,6 @@
     --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/* Global animation and transition enhancements */
 * {
     margin: 0;
     padding: 0;
@@ -290,7 +284,6 @@ body {
     position: relative;
 }
 
-/* Animated Grid Background */
 body::before {
     content: '';
     position: fixed;
@@ -316,7 +309,6 @@ body::before {
     }
 }
 
-/* Alternative animated squares */
 body::after {
     content: '';
     position: fixed;

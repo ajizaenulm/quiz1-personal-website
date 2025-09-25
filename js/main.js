@@ -1,28 +1,16 @@
-// Main JavaScript file for Aji Zaenul Musthofa's Personal Website
-
 $(document).ready(function() {
-    // Show loading screen
     showLoadingScreen();
-    
-    // Initialize all interactive features
     initNavigation();
     initAnimations();
     initInteractiveElements();
     initParallaxEffects();
     initParticleEffects();
     initTextReveal();
-    
-    // Set active navigation based on current page
     setActiveNavigation();
-    
-    // Initialize scroll effects
     initScrollEffects();
-    
-    // Initialize scroll progress bar
     $('body').prepend('<div class="scroll-progress"></div>');
 });
 
-// Loading screen function
 function showLoadingScreen() {
     $('body').append(`
         <div id="loading-screen">
@@ -40,7 +28,6 @@ function showLoadingScreen() {
         </div>
     `);
     
-    // Simulate loading progress
     let progress = 0;
     const loadingInterval = setInterval(() => {
         progress += Math.random() * 15;
@@ -49,11 +36,9 @@ function showLoadingScreen() {
             $('.progress-bar').css('width', '100%');
             clearInterval(loadingInterval);
             
-            // Hide loading screen after complete
             setTimeout(() => {
                 $('#loading-screen').fadeOut(800, function() {
                     $(this).remove();
-                    // Show main content with animation
                     $('body').addClass('loaded');
                 });
             }, 500);
@@ -63,9 +48,7 @@ function showLoadingScreen() {
     }, 100);
 }
 
-// Text reveal animation
 function initTextReveal() {
-    // Add typewriter effect to hero titles
     if ($('.hero-title').length) {
         const title = $('.hero-title').text();
         $('.hero-title').text('').css('opacity', 1);
@@ -76,22 +59,16 @@ function initTextReveal() {
             i++;
             if (i > title.length) {
                 clearInterval(typeInterval);
-                // Start subtitle animation
                 $('.hero-subtitle').fadeIn(800);
             }
         }, 100);
     }
 }
-    // Anchor links - let browser handle with CSS scroll-behavior
-    // No JavaScript needed - CSS scroll-behavior and scroll-padding-top will handle it
-
-    // Mobile navigation toggle with animation
     $('.navbar-toggler').on('click', function() {
         $('.navbar-collapse').slideToggle(300);
         $(this).toggleClass('active');
     });
 
-    // Close mobile menu when clicking on a link
     $('.navbar-nav .nav-link').on('click', function() {
         if($(window).width() < 992) {
             $('.navbar-collapse').slideUp(300);
@@ -99,14 +76,11 @@ function initTextReveal() {
         }
     });
 
-// Navigation functionality
 function initNavigation() {
-    // Mobile menu toggle
     $('.navbar-toggler').on('click', function() {
         $('.navbar-collapse').slideToggle(300);
     });
     
-    // Navbar scroll effect
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 100) {
             $('.navbar').addClass('scrolled');
@@ -116,12 +90,8 @@ function initNavigation() {
     });
 }
 
-// Animation initialization
 function initAnimations() {
-    // Add loading animation to cards
     $('.custom-card, .feature-card').addClass('loading');
-    
-    // Intersection Observer for better performance
     if ('IntersectionObserver' in window) {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
